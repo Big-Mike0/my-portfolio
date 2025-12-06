@@ -31,7 +31,7 @@ export function Hero() {
                         >
                             View Work <ArrowRight className="w-4 h-4" />
                         </a>
-                        <a href="/resume.pdf" download className="px-8 py-3 border border-white/20 hover:bg-white/5 rounded-full font-medium transition-colors flex items-center gap-2">
+                        <a href="https://drive.google.com/file/d/113eJK_PZgnYr4edxXUYZzG82dOwK_zmd/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="px-8 py-3 border border-white/20 hover:bg-white/5 rounded-full font-medium transition-colors flex items-center gap-2">
                             Download CV <Download className="w-4 h-4" />
                         </a>
                     </div>
