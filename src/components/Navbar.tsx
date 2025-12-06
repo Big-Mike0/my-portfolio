@@ -31,7 +31,7 @@ export function Navbar() {
         >
             <div className="container mx-auto px-6 py-4 flex items-center justify-between">
                 <a href="#" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-                    Big-MIke.
+                    Big-Mike.
                 </a>
 
                 {/* Desktop Menu */}
