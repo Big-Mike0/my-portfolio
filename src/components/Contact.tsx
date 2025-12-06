@@ -28,6 +28,7 @@ export function Contact() {
             await emailjs.send(serviceId, templateId, {
                 from_name: data.name,
                 from_email: data.email,
+                reply_to: data.email,
                 message: data.message,
             }, publicKey);
             toast.success("Message sent successfully!");
